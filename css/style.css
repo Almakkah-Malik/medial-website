@@ -13,20 +13,19 @@
   
 }
   
-.container{
-   
-    
+
+.logo{
+    margin-left: 2rem;
+
 }
 
-.navbar-brand{
-   
-     
-  
-}
 
+ .navbar-nav{
+     margin-left: 13rem;
+ }
 .navbar-nav .nav-link{
     color: rgb(36, 4, 87);
-    
+    margin-left: 2rem;
     font-weight: 500;
     
 }
@@ -43,9 +42,9 @@
 
 
    .button-1{  
-       align-items: center;
+       margin-left: 9rem;
        color: rgb(36, 4, 87);
-       border: 2px solid lightslategray;
+     
        font-weight: 500;
       
      
@@ -58,7 +57,8 @@
 
 
    .header{
-      
+ 
+     
        background: rgb(238, 249, 250);
        box-sizing: border-box;
        border-radius: 3rem;
@@ -87,8 +87,9 @@
 
 
     .button{
-       
-        border: 2px solid rgb(129, 41, 41);
+        padding: 0.8rem;
+        border: 2px solid rgb(204, 84, 84);
+        border-radius: 1rem;
        
 
     }
@@ -101,10 +102,306 @@
     
 }
 
-.img-fluid{
-    
-    width: 100%;
-    margin-bottom: 0.5rem;
 
+.Recommendation{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  
 }
+
+
+
+.divs{
+    
+    border: 2px solid rgba(240, 236, 236, 0.911);
+    border-radius: 1rem;
+    
+}
+
+
+ 
+
+
+.divs img{
+  
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+   
+    }
+
+    .divs h3{
+        margin-bottom: 0.9rem;
+        color: rgb(36, 4, 87);
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 0.9rem;
+        text-align: center;
+    }
+
+    .divs p{
+        text-align: center;
+        color: gray;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      
+      
+    }
+
+      .column-1 h3{
+
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          font-weight: bold;
+          color:  rgb(36, 4, 87);
+          font-size: 2rem;
+      }
+
+      .column-1 p{
+          color: rgb(63, 69, 124);
+         font-size: 1.1rem;
+         margin-bottom: 2rem;
+      }
+
+
+      .column-1 span{
+         color: gray;
+         
+      }
+        
+    
+    .learnmore{
+        color: rgb(201, 79, 100);
+        text-decoration: none;
+        margin-left: 6px;
+    }
+
+      .button-2{
+          
+            margin-top: 2rem;
+            border-radius: 4px;
+            color: rgb(36, 4, 87);
+            font-weight: 500;
+      }
+
+
+
+     .column-2{        
+        margin-left: 3.5rem;   
+        color: rgb(36, 4, 87);
+        
+        
+        }
+             
+      .column-2 span{
+          font-size: 1.2rem;
+
+      }
+
+     .img-section{
+        border-radius: 12px;
+       
+        
+    }
+
+    .img-section img{
+
+        border-radius: 12px;
+       
+        margin-bottom: 1.3rem;
+       
+      
+    }
+
+    .img-section h5{
+        color: rgb(68, 60, 82);
+    }
+
+
+    .footer{
+        background: rgb(238, 249, 250);
+        margin-top: 3.5rem;   
+       
+    }
+
+    .footer h2{
+        text-align: center;
+        color: rgb(36, 4, 87);
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .footer h4{
+       
+        color: rgb(68, 60, 82);
+        margin-bottom: 1rem;
+       
+    }
+
+    .footer p{
+       
+        color: rgba(77, 79, 100, 0.87);
+       font-size: 1.1rem;
+       margin-bottom: 2rem;
+       font-weight: 500;
+     
+      
+    }
+
+
+     .footer-1,
+     .footer-2{
+        margin-bottom: 4rem;
+    }
+   
+    
+    /* .footer-1{
+        align-items: center;
+    } */
+
+    .footer-1{
+        margin-left: 13rem;
+    }
+
+    .footer-2{
+       
+     }
+
+
+
+
+
+
+
+
+
+
+
+     @media (max-width: 991px) {
+        
+        .div-1{
+            margin-bottom: 40px;
+        }
+
+        .divs img{
+            margin-left: 6rem;
+            position: sticky;
+    
+           
+          
+        }
+
+
+        .column-1 h3{
+          margin-top: 2px;
+          font-size: 27px;
+
+        }
+
+        .button-2{
+            margin-top: 15px;
+        }
+        .column-2{
+           margin-left: 150px;
+        }
+        .img-section-1{
+
+            margin-left: 25px;
+        }
+       .img-section-2{
+          margin-left: 150px;
+         margin-top: 20px;             
+       }
+       .img-section-3{
+        margin-left: 20px;   
+       margin-top: 20px;             
+     }
+
+        .footer{
+            margin-top: 100px;
+        }
+        .footer-1{
+            margin-left: 10rem;
+        } 
+         
+     .copy-rights{
+         text-align: center;
+       
+     }
+
+
+     }
+
+     @media (min-width: 991px) and (max-width: 1115px) {
+       
+       .divs img{
+               margin-left: 10px;
+               margin-top: 1.5rem;
+    }
+    
+    .divs h3{  
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 15px;
+       
+        
+    }
+
+    .divs p{
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 1rem;
+
+    }
+
+   .column-1 h3{
+        font-size: 27px;
+        margin-top: 5px;
+
+    }
+    .column-1 p{
+        margin-bottom: 26px;
+
+    }
+
+    .button-2{
+          
+        margin-top: 20px;
+        
+  }
+
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767px){
+
+    .divs img{
+        margin-left: 4rem;
+       
+}
+
+.img-section-1{
+
+    margin-left: 25px;
+}
+.img-section-2{
+  margin-left: 150px;
+ margin-top: 20px;             
+}
+.img-section-3{
+margin-left: 20px;   
+margin-top: 20px;             
+}
+
+.footer-1{
+    margin-left: 0;
+} 
+
+ }
+
+ 
+
+
 
